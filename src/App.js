@@ -27,8 +27,10 @@ function App() {
         break;
     }
   };
+
   console.log("inputValues  ::  ", inputValues);
   console.log("result  ::  ", result);
+
   return (
     <div className="App">
       <div className="calcCard">
