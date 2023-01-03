@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import CalcDisplay from "./calcDisplay";
-import CalcKeyboard from "./calcKeyboard";
+import CalcDisplay from "./components/calcDisplay";
+import CalcKeyboard from "./components/calcKeyboard";
+import Header from "./components/header";
 import "./App.css";
 
 function App() {
@@ -32,10 +33,17 @@ function App() {
   console.log("result  ::  ", result);
 
   return (
-    <div className="App">
-      <div className="calcCard">
-        <CalcDisplay inputValues={inputValues} result={result} />
-        <CalcKeyboard handleClick={handleClick} />
+    <div>
+      <Header title="Calculator" />
+      <div className="container">
+        <p>
+          The most basic operations that a calculator can perform are related to
+          addition, subtraction, multiplication, and division.
+        </p>
+        <div className="calcCard">
+          <CalcDisplay inputValues={inputValues} result={result} />
+          <CalcKeyboard handleClick={handleClick} />
+        </div>
       </div>
     </div>
   );

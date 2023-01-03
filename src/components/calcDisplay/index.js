@@ -5,7 +5,6 @@ const CalcDisplay = ({ inputValues = "", result = "" }) => {
   return (
     <div className="calcDisplay">
       <h1 className="calc">{inputValues}</h1>
-      <br />
       <h1 className="result">
         {!result
           ? 0

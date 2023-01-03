@@ -1,6 +1,8 @@
 .calcDisplay{
-    background-color: white;
-    height: 25%;
+    /* background-color: rgb(102, 235, 229); */
+    background-color: black;
+    color: white;
+    height: 16%;
     padding: 10px;
     text-align: right;
     border-top-left-radius: 10px;
