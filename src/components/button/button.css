@@ -1,4 +1,4 @@
-button{
+button {
     margin: 5px;
     width: 20%;
     font-size: 1.5em;
@@ -8,7 +8,7 @@ button{
 }
 
 @media screen and (max-width:600px) {
-    button{
+    button {
         font-size: 1.0em;
     }
 }

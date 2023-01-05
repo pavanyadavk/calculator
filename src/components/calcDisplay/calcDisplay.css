@@ -1,11 +1,10 @@
-.calcDisplay{
-    /* background-color: rgb(102, 235, 229); */
-    background-color: black;
+.calcDisplay {
     color: white;
-    height: 16%;
+    height: 80px;
     padding: 10px;
     text-align: right;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
+    background-color: black;
+
 }

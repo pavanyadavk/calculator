@@ -9,8 +9,8 @@ const CalcDisplay = ({ inputValues = "", result = "" }) => {
         {!result
           ? 0
           : result % 1 === 0
-          ? result
-          : parseFloat(result).toFixed(2)}
+            ? result
+            : parseFloat(result).toFixed(2)}
       </h1>
     </div>
   );
