@@ -27,6 +27,10 @@ const CalcKeyboard = ({ handleClick = {} }) => {
         <Button name="1" onClick={handleClick} />
         <Button name="2" onClick={handleClick} />
         <Button name="3" onClick={handleClick} />
+        <Button name="." onClick={handleClick} />
+      </div>
+      <div className="btnRow">
+        <Button name="0" onClick={handleClick} />
         <Button name="=" onClick={handleClick} />
       </div>
     </div>
