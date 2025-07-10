@@ -20,7 +20,7 @@ function App() {
         break;
 
       case "=":
-        setResult(eval(inputValues));
+        setResult(inputValues);
         break;
 
       default:
